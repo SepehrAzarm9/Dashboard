@@ -1,0 +1,29 @@
+.Overview {
+  height: 70%;
+  width: 100%;
+  gap: 10px;
+  /* background-color: white; */
+}
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.Chart-section {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 10px;
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../../../public/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Josefin";
+  src: url(../../../public/fonts/JosefinSans-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-weight: 700;
+}

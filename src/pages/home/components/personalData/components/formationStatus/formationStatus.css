@@ -1,0 +1,51 @@
+.formation-status-card-main {
+  margin: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: fit-content;
+  width: 70%;
+  padding: 20px 30px;
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formation-title {
+  font-family: "Josefin";
+
+  font-weight: 700;
+  font-size: 24px;
+}
+.description {
+  font-family: "Josefin";
+  font-size: 16px;
+}
+
+.progress-bar {
+  height: 20px;
+}
+
+.estimate {
+  font-family: "Josefin";
+  margin-top: 20px;
+}
+
+.estimate-desc {
+  font-family: "Josefin";
+  font-size: 16px;
+  color: rgba(102, 112, 133, 1);
+}
+
+.formation-button {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(105, 65, 198, 1);
+  border: 0;
+  color: white;
+  font-family: "Josefin";
+  border-radius: 8px;
+  margin-top: 10px;
+}

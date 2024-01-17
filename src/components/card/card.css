@@ -1,0 +1,28 @@
+.card-main {
+  display: flex;
+  height: fit-content;
+  width: 20%;
+  flex-direction: column;
+  padding: 15px;
+  gap: 5px;
+  border-radius: 24px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.Logo {
+  margin: 5px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.desc {
+  color: rgba(71, 84, 103, 1);
+  margin-bottom: 10px;
+  margin: 5px 0;
+}
