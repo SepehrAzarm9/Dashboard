@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
 .Emails-Title {
   font-family: "roboto";
   font-weight: 700;
@@ -11,5 +15,6 @@
 }
 
 .cards {
+  overflow-y: scroll;
   margin: 20px 30px;
 }

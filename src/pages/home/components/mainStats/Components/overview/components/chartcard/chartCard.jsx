@@ -29,7 +29,7 @@ export const ChartCard = () => {
         label: "Monthly Sales",
         fill: false,
         borderColor: "rgb(75, 192, 192)",
-        data: [24, 19, 16, 10, 10],
+        data: [24, 5, 16, 25, 10],
       },
       {
         label: "Monthly Sales",
@@ -41,6 +41,7 @@ export const ChartCard = () => {
   };
 
   const options = {
+    drawTicks: false,
     scales: {
       y: {
         beginAtZero: true,
@@ -52,7 +53,7 @@ export const ChartCard = () => {
     <div className="chart-section">
       <div className="chart-card">
         <div className="chart-title">Revenue</div>
-        <Line data={data} options={options} />
+        <Line display={false} data={data} options={options} />
       </div>
     </div>
   );

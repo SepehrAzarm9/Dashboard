@@ -1,0 +1,21 @@
+.meeting-section-main {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+  width: 70%;
+  margin: 30px 0;
+}
+
+.meeting-title {
+  font-family: "Josefin";
+  font-size: 16px;
+}
+
+.meeting-descriptions {
+  font-family: "Josefin";
+  font-size: 12px;
+  color: rgba(152, 162, 179, 1);
+}

@@ -1,5 +1,6 @@
 .Sidebar-main {
-  width: fit-content;
+  position: relative;
+  width: 50px;
   background-color: #6941c6;
   padding: 20px;
   display: flex;
@@ -7,6 +8,17 @@
   align-items: center;
   color: white;
   justify-content: space-between;
+  transition: all 0.4s ease-in-out;
+}
+
+.Sidebar-main.open {
+  width: 200px;
+}
+
+.sidebar-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .main-nav-items {
@@ -19,17 +31,46 @@
 }
 
 .sidebar-button {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  right: -55px;
+  right: -15px;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-
   color: black;
   border: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.sidebar-item-title {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.sidebar-item-title.open {
+  position: static;
+  visibility: visible;
+  opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
