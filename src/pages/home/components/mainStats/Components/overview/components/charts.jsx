@@ -4,8 +4,12 @@ import { ChartCard } from "./chartcard/chartCard";
 const ChartsSection = () => {
   return (
     <div className="Chart-section">
-      <StatusCards />
-      <ChartCard />
+      <div className="Statuscards-main">
+        <StatusCards />
+      </div>
+      <div className="Chart-card-main">
+        <ChartCard />
+      </div>
     </div>
   );
 };

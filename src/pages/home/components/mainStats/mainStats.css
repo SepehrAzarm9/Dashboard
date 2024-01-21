@@ -1,7 +1,7 @@
 .Stats {
   height: 100%;
-  width: 60%;
-  display: flex;
+  width: 100%;
+  display: grid;
   flex-direction: column;
-  gap: 10px;
+  gap: 24px;
 }

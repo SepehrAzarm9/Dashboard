@@ -21,13 +21,13 @@ const Sidebar = () => {
   };
 
   const items = [
-    { id: 1, logo: <Dashboard />, title: "Dashboard" },
-    { id: 2, logo: <Report />, title: "Report" },
-    { id: 3, logo: <Bank />, title: "Bank" },
-    { id: 4, logo: <Email />, title: "Email" },
-    { id: 5, logo: <Group />, title: "Group" },
-    { id: 6, logo: <List />, title: "List" },
-    { id: 7, logo: <Finance />, title: "Finance" },
+    { id: 1, logo: <Dashboard />, title: "Dashboard", isActive: true },
+    { id: 2, logo: <Report />, title: "Report", isActive: false },
+    { id: 3, logo: <Bank />, title: "Bank", isActive: false },
+    { id: 4, logo: <Email />, title: "Email", isActive: false },
+    { id: 5, logo: <Group />, title: "Group", isActive: false },
+    { id: 6, logo: <List />, title: "List", isActive: false },
+    { id: 7, logo: <Finance />, title: "Finance", isActive: false },
   ];
 
   return (
@@ -40,7 +40,11 @@ const Sidebar = () => {
         <div className="main-nav-items">
           <ul>
             {items.map((item) => (
-              <SidebarItem title={item.title} isOpen={isOpen}>
+              <SidebarItem
+                title={item.title}
+                isActive={item.isActive}
+                isOpen={isOpen}
+              >
                 {item.logo}
               </SidebarItem>
             ))}

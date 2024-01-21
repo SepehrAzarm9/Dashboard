@@ -8,11 +8,17 @@ const HomePage = () => {
   return (
     <div className="Homepage-main">
       <Sidebar />
-      <div className="Dashboard-main">
-        <h1 className="Welcome-msg">Welcome Sajjad</h1>
-        <div className="Dash-Row">
-          <MainStats />
-          <PersonalData />
+      <div className="Main-section">
+        <div className="Dashboard-main">
+          <h1 className="Welcome-msg">Welcome Sajjad</h1>
+          <div className="Dash-Row">
+            <div className="main_states">
+              <MainStats />
+            </div>
+            <div className="personal_data">
+              <PersonalData />
+            </div>
+          </div>
         </div>
       </div>
     </div>

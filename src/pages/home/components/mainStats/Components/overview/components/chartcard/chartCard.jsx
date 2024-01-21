@@ -26,22 +26,23 @@ export const ChartCard = () => {
     labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     datasets: [
       {
-        label: "Monthly Sales",
+        label: "Deposit",
         fill: false,
-        borderColor: "rgb(75, 192, 192)",
-        data: [24, 5, 16, 25, 10],
+        borderColor: "#6941C6",
+        tension: 0.5,
+        data: [24, 5, 16, 12, 10],
       },
       {
-        label: "Monthly Sales",
+        label: "Withdraw",
         fill: false,
-        borderColor: "rgba(105, 65, 198, 1)",
-        data: [4, 8, 12, 18, 24],
+        tension: 0.5,
+        borderColor: "#101828",
+        data: [4, 8, 2, 18, 24],
       },
     ],
   };
 
   const options = {
-    drawTicks: false,
     scales: {
       y: {
         beginAtZero: true,
@@ -53,7 +54,7 @@ export const ChartCard = () => {
     <div className="chart-section">
       <div className="chart-card">
         <div className="chart-title">Revenue</div>
-        <Line display={false} data={data} options={options} />
+        <Line data={data} options={options} />
       </div>
     </div>
   );
