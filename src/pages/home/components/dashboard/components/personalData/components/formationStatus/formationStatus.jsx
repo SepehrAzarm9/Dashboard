@@ -1,6 +1,6 @@
 import React from "react";
 import "./formationStatus.css";
-import ProgressBar from "../../../../../../hooks/progressBar/Progress-Bar";
+import ProgressBar from "../../../../../../../../hooks/progressBar/Progress-Bar";
 
 const FormationStatus = () => {
   return (

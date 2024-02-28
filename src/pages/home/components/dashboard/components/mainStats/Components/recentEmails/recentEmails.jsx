@@ -1,11 +1,11 @@
 import React from "react";
 import "./recentEmails.css";
-import { CardDetail } from "../../../../../../components/cardDetail/cardDetail";
-import profile from "../../../../../../assets/images/profile/1.png";
-import profiletwo from "../../../../../../assets/images/profile/2.png";
-import profilethree from "../../../../../../assets/images/profile/3.png";
-import profilefour from "../../../../../../assets/images/profile/4.png";
-import profilefive from "../../../../../../assets/images/profile/5.png";
+import { CardDetail } from "../../../../../../../../components/cardDetail/cardDetail";
+import profile from "../../../../../../../../assets/images/profile/1.png";
+import profiletwo from "../../../../../../../../assets/images/profile/2.png";
+import profilethree from "../../../../../../../../assets/images/profile/3.png";
+import profilefour from "../../../../../../../../assets/images/profile/4.png";
+import profilefive from "../../../../../../../../assets/images/profile/5.png";
 
 const RecentEmails = () => {
   const items = [

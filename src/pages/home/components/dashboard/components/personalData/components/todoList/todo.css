@@ -2,8 +2,8 @@
   height: fit-content;
   width: 80%;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   /* background-color: cadetblue; */
   flex-direction: column;
 }

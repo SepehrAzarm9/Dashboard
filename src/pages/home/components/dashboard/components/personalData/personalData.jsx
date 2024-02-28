@@ -1,13 +1,13 @@
 import React from "react";
 import "./personalData.css";
-import { ReactComponent as Calendar } from "../../../../assets/svg/calendar.svg";
-import { ReactComponent as Notifications } from "../../../../assets/svg/notification.svg";
-import { ReactComponent as Massages } from "../../../../assets/svg/massages.svg";
-import { ReactComponent as DownArrow } from "../../../../assets/svg/downarrow.svg";
+import { ReactComponent as Calendar } from "../../../../../../assets/svg/calendar.svg";
+import { ReactComponent as Notifications } from "../../../../../../assets/svg/notification.svg";
+import { ReactComponent as Massages } from "../../../../../../assets/svg/massages.svg";
+import { ReactComponent as DownArrow } from "../../../../../../assets/svg/downarrow.svg";
 import FormationStatus from "./components/formationStatus/formationStatus";
 import TodoList from "./components/todoList/todo";
 import MeetingSection from "./components/meeting/Meeting";
-import profile from "../../../../assets/images/profile/3.png";
+import profile from "../../../../../../assets/images/profile/3.png";
 
 const PersonalData = () => {
   return (
