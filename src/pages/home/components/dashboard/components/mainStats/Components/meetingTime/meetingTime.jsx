@@ -1,13 +1,18 @@
-import React from "react";
-import "./recentEmails.css";
+import React, { useState } from "react";
+import "./meetingTime.css";
 import { CardDetail } from "../../../../../../../../components/cardDetail/cardDetail";
 import profile from "../../../../../../../../assets/images/profile/1.png";
 import profiletwo from "../../../../../../../../assets/images/profile/2.png";
 import profilethree from "../../../../../../../../assets/images/profile/3.png";
 import profilefour from "../../../../../../../../assets/images/profile/4.png";
 import profilefive from "../../../../../../../../assets/images/profile/5.png";
+import AddMeetingModal from "./modal/addMeetingModal";
 
-const RecentEmails = () => {
+const MeetingTime = () => {
+  const [isOpen, setIsOpen] = useState();
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
   const items = [
     {
       id: 1,
@@ -47,8 +52,14 @@ const RecentEmails = () => {
   ];
 
   return (
-    <div className="Emails-section">
-      <div className="Emails-Title">Recent Emails</div>
+    <div className="Meeting-Time-section">
+      <div className="Meeting-Time-Title">
+        Meeting Time
+        <button className="Add-Meeting-button" onClick={toggleModal}>
+          Add Meeting
+        </button>
+        {isOpen && <AddMeetingModal toggleModal={toggleModal} />}
+      </div>
       <div className="cards">
         {items.map((item) => (
           <CardDetail
@@ -63,4 +74,4 @@ const RecentEmails = () => {
   );
 };
 
-export default RecentEmails;
+export default MeetingTime;
