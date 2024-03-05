@@ -1,0 +1,46 @@
+.Date-Option-Content {
+  position: static;
+  width: 100%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: min-content min-content;
+}
+
+.Date-Option-Main {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.Date-Option-info-wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  gap: 16px;
+}
+
+.Date-option-info {
+  display: grid;
+  grid-template-rows: auto auto;
+  width: max-content;
+}
+
+.Option-Title {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.Option-Desc {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: fit-content;
+}

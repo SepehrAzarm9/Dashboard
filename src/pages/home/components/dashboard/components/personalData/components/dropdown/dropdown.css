@@ -1,0 +1,108 @@
+.Combo-List-MainDiv {
+  width: 200px;
+  height: fit-content;
+  padding: 8px;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 8px;
+}
+
+.Employees-involved-label {
+  position: static;
+}
+
+.Combo-List-Input {
+  width: 100px;
+  border-radius: 8px;
+}
+.Dropdown-field {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6941c6;
+  background-color: white;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.dropdown-main {
+  position: absolute;
+  top: 60px;
+  width: inherit;
+  padding: 12px;
+  overflow-y: auto;
+  background-color: white;
+  /* border: 1px solid #6941c6; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.Dropdown-search-field {
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid #6941c6;
+  width: -webkit-fill-available;
+}
+
+.apply-button {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Brand-700, #6941c6);
+  background: var(--Brand-700, #6941c6);
+  color: white;
+  width: fit-content;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  /* margin-top: 10px; */
+}
+.Menu-Items-container {
+  margin: 12px 0;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.Menu-Item {
+  padding: 4px;
+  border-radius: 4px;
+}
+.Menu-Item-Title {
+  color: var(--Gray-900, #101828);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.selected-employees-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.selected-employees-text {
+  color: var(--Gray-900, #101828);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.selected-employees-clear {
+  color: var(--Blue-600, #1570ef);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+input[type="checkbox"] {
+  color: #6941c6;
+  border-radius: 4px;
+}

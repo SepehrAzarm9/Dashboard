@@ -36,7 +36,7 @@ export const CardsSection = () => {
   return (
     <div className="cards-section">
       {items.map((item) => (
-        <Card amount={item.amount} description={item.description}>
+        <Card amount={item.amount} description={item.description} key={item.id}>
           {item.component}
         </Card>
       ))}

@@ -1,0 +1,24 @@
+.Step-Three-Main {
+  padding-top: 50px;
+  padding: 16px 48px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 32px;
+  height: min-content;
+}
+
+.Preview-Text {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.Step-Three-pointer-span {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}

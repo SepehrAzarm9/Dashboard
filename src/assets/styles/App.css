@@ -8,6 +8,11 @@
   src: url(../../../public/fonts/JosefinSans-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url(../../../public/fonts/Inter-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;

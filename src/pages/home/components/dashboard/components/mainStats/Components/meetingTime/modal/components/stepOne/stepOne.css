@@ -1,0 +1,46 @@
+.Step-One-Main {
+  padding: 16px 48px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-items: center;
+  gap: 24px;
+  height: min-content;
+}
+
+.Email-Field-Main {
+  grid-row: 1 / 2;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.43px;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 8px;
+}
+
+.Step-One-Input {
+  border-radius: 10px;
+  border: 1px solid var(--White, #fff);
+  background: var(--Gray-100, #f2f4f7);
+  padding: 10px 20px;
+}
+
+.Email-Field-Label {
+  position: static;
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.Set-Date-main {
+  grid-row: 2 / 5;
+  gap: 16px;
+  display: grid;
+}
+.Date-Label {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bolder;
+}

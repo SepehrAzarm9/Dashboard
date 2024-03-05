@@ -1,0 +1,71 @@
+.Add-Meeting-Stepper {
+  border-right: 1px dotted #2e90fa;
+  grid-column: 1 / 2;
+  padding: 24px 0;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Steps-Wrap {
+  height: fit-content;
+  display: grid;
+  gap: 5px;
+}
+
+.Step-Box {
+  height: 40px;
+  width: 40px;
+  border-radius: 9px;
+  background: var(--Blue-100, #d1e9ff);
+  color: var(--Blue-500, #2e90fa);
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  font-size: 18px;
+  grid-column: 1 / 2;
+  transition: all 0.2s ease-in;
+}
+
+.Step-Box.active {
+  background: var(--Blue-500, #2e90fa);
+  color: white;
+}
+
+.Stepper-Line {
+  border-left: 2px dotted #2e90fa;
+  height: 50px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.Step {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  height: fit-content;
+}
+
+.Step-Content {
+  grid-column: 2 / 4;
+  display: grid;
+  grid-row: auto auto;
+}
+
+.Step-Title {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 16.3px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px;
+}
+
+.Step-Desc {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px; /* 150% */
+}

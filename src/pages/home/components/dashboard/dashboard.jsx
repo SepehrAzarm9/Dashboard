@@ -2,11 +2,12 @@ import React from "react";
 import MainStats from "./components/mainStats/mainStats";
 import PersonalData from "./components/personalData/personalData";
 import "./components/index.css";
+import EmployeeDropdown from "./components/personalData/components/dropdown/dropdown";
 
 const Dashboard = () => {
   return (
     <div className="Dashboard-main">
-      <h1 className="Welcome-msg">Welcome Sajjad</h1>
+      <EmployeeDropdown />
       <div className="Dash-Row">
         <div className="main_states">
           <MainStats />

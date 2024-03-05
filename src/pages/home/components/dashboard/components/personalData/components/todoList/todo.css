@@ -4,6 +4,24 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  /* background-color: cadetblue; */
   flex-direction: column;
+}
+.todo-items-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.add-todo-item-main {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 10px 0;
+  align-items: center;
+  cursor: pointer;
+}
+.add-todo-item-title {
+  font-family: "Josefin";
+  font-size: 16px;
 }

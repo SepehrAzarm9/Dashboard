@@ -1,0 +1,39 @@
+.Btn-wrap {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  padding: 0 24px;
+}
+
+.Btn-wrap.step-one {
+  justify-content: end;
+}
+
+.Modal-btn {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--Brand-700, #6941c6);
+  background: var(--Brand-700, #6941c6);
+  color: white;
+  width: fit-content;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Modal-back-btn {
+  border-radius: 8px;
+  border: 1px solid var(--Brand-700, #6941c6);
+  color: #6941c6;
+  background: var(--White, #fff);
+  padding: 12px;
+  width: fit-content;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-deactive {
+  display: none;
+}

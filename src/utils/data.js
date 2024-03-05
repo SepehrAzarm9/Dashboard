@@ -1,32 +1,43 @@
-export const Data = [
+import profile from "../assets/images/profile/1.png";
+import profiletwo from "../assets/images/profile/2.png";
+import profilethree from "../assets/images/profile/3.png";
+import profilefour from "../assets/images/profile/4.png";
+import profilefive from "../assets/images/profile/5.png";
+
+export const MeetingTimeData = [
   {
     id: 1,
-    year: 2016,
-    userGain: 80000,
-    userLost: 823,
+    src: profile,
+    name: "Livia Stanto",
+    description: "Meeting scheduled",
+    date: "1:24 PM",
   },
   {
     id: 2,
-    year: 2017,
-    userGain: 45677,
-    userLost: 345,
+    src: profiletwo,
+    name: "Allison Lipshutz",
+    description: "Update on marketing campaign",
+    date: "12:14 PM",
   },
   {
     id: 3,
-    year: 2018,
-    userGain: 78888,
-    userLost: 555,
+    src: profilethree,
+    name: "Martin Stanton",
+    description: "Designly 2.0 is about to launch",
+    date: "Dec 19 at 8:01 PM",
   },
   {
     id: 4,
-    year: 2019,
-    userGain: 90000,
-    userLost: 4555,
+    src: profilefour,
+    name: "Alfredo Botosh",
+    description: "My friend Julie loves Dapper!",
+    date: "Dec 19 at 6:11 PM",
   },
   {
     id: 5,
-    year: 2020,
-    userGain: 4300,
-    userLost: 234,
+    src: profilefive,
+    name: "Ann Philips",
+    description: "My friend Julie loves Dapper!",
+    date: "Dec 19 at 6:11 PM",
   },
 ];

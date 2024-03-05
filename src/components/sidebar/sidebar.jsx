@@ -44,6 +44,7 @@ const Sidebar = () => {
                 title={item.title}
                 isActive={item.isActive}
                 isOpen={isOpen}
+                key={item.id}
               >
                 {item.logo}
               </SidebarItem>
